@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - MySpace Exercise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="master-container">
+
+  <!-- Main Header Begins -->
+  <header class="main-header">
+    <nav class="search-bar">
+
+      <ul class="topnav home">
+        <li><a href="#">MySpace.com</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+
+      <form>
+        <label>
+          The Web
+          <input type="radio" name="search-type" value="the-web">
+        </label>
+
+        <label>
+          MySpace
+          <input type="radio" name="search-type" value="myspace">
+        </label>
+
+        <label>
+          <input type="text" name="search">
+        </label>
+
+        <input class="submit-btn" type="submit" name="submit-button" value="Search">
+      </form>
+
+      <ul class="topnav signup">
+        <li><a href="#">Help</a></li>
+        <li><a href="#">SignUp</a></li>
+      </ul>
+    </nav>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Browse</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Invite</a></li>
+        <li><a href="#">Film</a></li>
+        <li><a href="#">Mail</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Favorites</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="#">Groups</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Classifieds</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <!-- Main Header Ends -->
+
+  <div class="page-content-container">
+
+    <!-- Profile Sidebar Begins -->
+    <aside class="profile-sidebar">
+
+      <header>
+        <h1>Mya</h1>
+      </header>
+
+      <!-- Profile Picture -->
+      <div class="profile-picture-container">
+        <img class="profile-pic" src="https://myacocchiola.github.io/MySpace/jb%20pfp.jpg" alt="A profile picture of Jones Beach, my hometown beach.">
+
+        <p class="personal-msg"><b>"Moo :)"</b></p>
+
+        <ul class="gender-age">
+          <li>Female</li>
+          <li>20 years old</li>
+          <li>Wantagh,</li>
+          <li>NEW YORK</li>
+          <li>United States</li>
+        </ul>
+
+        <ul class="last-login">
+          <li>Last Login:</li>
+          <li>4/22/2006</li>
+        </ul>
+
+        <p class="pics-videos">View My: <a href="#"><b>Pics</b></a> | <a href="#"><b>Videos</b></a></p>
+      </div>
+
+      <!-- Contact Box -->
+      <section class="contact-box">
+        <h2>Contacting Mya</h2>
+
+        <figure class="contact-images">
+          <img src="https://assets.codepen.io/3/sendMailIcon.gif" alt="Send Message">
+          <img src="https://assets.codepen.io/3/forwardMailIcon.gif" alt="Forward to Friend">
+          <img src="https://assets.codepen.io/3/addFriendIcon.gif" alt="Add to Friends">
+          <img src="https://assets.codepen.io/3/addFavoritesIcon.gif" alt="Add to Favorites">
+          <img src="https://assets.codepen.io/3/messagefriend.gif" alt="Instant Message">
+          <img src="https://assets.codepen.io/3/blockUser.gif" alt="Block User">
+          <img src="https://assets.codepen.io/3/addToGroupIcon.gif" alt="Add to Group">
+          <img src="https://assets.codepen.io/3/rankUserIcon.gif" alt="Rank User">
+        </figure>
+      </section>
+
+      <!-- MySpace URL -->
+      <section class="myspace-url-box">
+        <h3><b>MySpace URL:</b></h3>
+        <p>http://www.myspace.com/mya</p>
+      </section>
+
+      <!-- Interests Section -->
+      <section class="interests">
+        <table class="sidebar-table">
+
+          <caption>
+            <h2 class="sidebar-table-h2">Mya's Interests</h2>
+          </caption>
+
+          <tbody>
+            <tr>
+              <th class="sidebar-table-header" scope="row">General</th>
+              <td class="sidebar-table-data">
+                <p>Reading, Listening to music, Running, Finding New Food, Exercising, Walking outdoors, Watching sunset, Travel, Soaking in the sun</p>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="sidebar-table-header" scope="row">Music</th>
+              <td class="sidebar-table-data">
+
+                <p><b>Music Artists</b>: Miley Cyrus, Katy Perry, Rex Orange County, Olivia Rodrigo, Harry Styles, Taylor Swift, Drake, SZA, Lana Del Ray, Beyonce</p>
+
+              </td>
+            </tr>
+
+            <tr>
+              <th class="sidebar-table-header" scope="row">Books</th>
+              <td class="sidebar-table-data">
+
+                <p><i>The Four Agreements, It Ends With Us, Verity, November 9, Where the Crawdads Sing</i></p>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="sidebar-table-header" scope="row">Television</th>
+              <td class="sidebar-table-data">
+                <p>Tuned out. <em>Except for SF Giants.</em> I rented Band of Brothers and liked that.</p>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Mya's Details Section -->
+      <section class="details">
+        <table class="sidebar-table">
+
+          <caption>
+            <h2 class="sidebar-table-h2">Mya's Details</h2>
+          </caption>
+
+          <tbody>
+
+            <tr>
+              <th class="sidebar-table-header" scope="row">Here For:</th>
+              <td class="sidebar-table-data">Networking, Friends, Discovering new music</td>
+            </tr>
+
+            <tr>
+              <th class="sidebar-table-header" scope="row">Hometown:</th>
+              <td class="sidebar-table-data">New York</td>
+            </tr>
+
+            <tr>
+              <th class="sidebar-table-header" scope="row">Ethnicity:</th>
+              <td class="sidebar-table-data">Italian</td>
+            </tr>
+
+            <tr>
+              <th class="sidebar-table-header" scope="row">Zodiac Sign:</th>
+              <td class="sidebar-table-data">Cancer</td>
+            </tr>
+
+            <tr>
+              <th class="sidebar-table-header" scope="row">Occupation:</th>
+              <td class="sidebar-table-data">Marketing Assistant & Jeni's Ice Cream</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Mya's Schools Section -->
+      <section class="schools">
+        <table class="sidebar-table">
+
+          <caption>
+            <h2 class="sidebar-table-h2">Mya's Schools</h2>
+          </caption>
+
+          <tbody>
+            <tr>
+              <th class="sidebar-table-header" scope="row">
+                <ul>
+                  <li><a href="#">Wantagh High School</a></li>
+                  <li>Wantagh, New York</li>
+                  <li>Graduated: <a href="#">2021</a></li>
+
+              </th>
+              <td class="sidebar-table-data">2017 to 2021</td>
+            </tr>
+
+            <tr>
+              <th class="sidebar-table-header" scope="row">
+                <ul>
+                  <li><a href="#">University Of Tampa</a></li>
+                  <li>Tampa, FLORIDA</li>
+                  <li>Graduated: <a href="#">2024</a></li>
+                  <li>Student status: Student</li>
+                  <li>Degree: Bachelor's Degree</li>
+                  <li>Major: ADPR, PR Concentration</li>
+                  <li>Clubs: Her Campus, PRSSA</li>
+                </ul>
+              </th>
+              <td class="sidebar-table-data">2021 to pres.</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </section>
+    </aside>
+    <!-- Profile Side Bar Ends -->
+
+    <!-- Main Section -->
+    <main>
+      <br />
+      <audio controls src="https://myacocchiola.github.io/MySpace/ItGetsBetter.mp3"></audio>
+
+      <section class="user-network">
+        <header>
+          <h2>Mya is in your extended network</h2>
+        </header>
+      </section>
+
+      <section class="blog">
+        <p><b>Mya's Latest Blog Entry</b> [<a href="#">Subscribe to this Blog</a>]</p>
+        <p>Read about Foodie Card! (<a href="#">view more</a>) </p>
+        <p>Read about the new Jeni's collab! (<a href="#">view more</a>) </p>
+        <p>Check out these upcoming concerts in Tampa! (<a href="#">view more</a>) </p>
+        <p>Upcoming events at Armature Works! (<a href="#">view more</a>) </p>
+        <p>Buy my favorite books! (<a href="#">view more</a>)</p>
+        <p>[<a href="#">View All Blog Entries</a>]</p>
+      </section>
+
+      <section class="blurbs">
+        <header class="main-section-header">
+          <h2 class="main-section-h2">Mya's Blurbs</h2>
+        </header>
+
+        <h3>About me:</h3>
+        <p>I'm from Wantagh, NY and have 2 Labroadors at home. One is a Fox Red Lab and one is a Black Lab who has worked for the Guide Dog Foundation! I miss them so much when I'm away at school.</p>
+
+        <p>At home, I love hanging out with my 2 sisters, my parents, and my home friensd. Hanging out in the backyard, getting coffee, and going to the beach are some of my fave activities.</p>
+
+        <p><strong>If you want to get coffee and hit the beach, let me know!</strong></p>
+
+        <p>At UT, I love hanging out with my friends. We love going out on the weekend, getting food togehter, and going for walks. They are the best!!!</p>
+
+        <p>My current fave artists are Miley Cyrus, Katy Perry, and One Direction! I'm having a throwback phase.</p>
+
+        <h3>Who I'd like to meet:</h3>
+        <p>I'd like to meet people who love music, appreciate nature, and enjoy the little things! </p>
+      </section>
+
+      <section class="friends">
+        <header class="main-section-header">
+          <h2 class="main-section-h2">Mya's Friend Space</h2>
+        </header>
+
+        <p><b>Mya has <span class="focus-highlight">73090713</span> Friends.</b></p>
+
+        <div class="friend-pic-container">
+          <figure>
+            <figcaption><a href="#">MySpace<br>Records</a></figcaption>
+            <img src="https://assets.codepen.io/3/myspace-records.jpg">
+          </figure>
+
+          <figure>
+            <figcaption><a href="#">Ashley</a></figcaption>
+            <img src="https://assets.codepen.io/3/andi.jpg">
+          </figure>
+
+          <figure>
+            <figcaption><a href="#">Chris</a></figcaption>
+            <img src="https://assets.codepen.io/3/abraham.jpg">
+          </figure>
+
+          <figure>
+            <figcaption><a href="#">Emily</a></figcaption>
+            <img src="https://assets.codepen.io/3/tanner.jpg">
+          </figure>
+
+          <figure>
+            <figcaption><a href="#">Carolyn</a></figcaption>
+            <img src="https://assets.codepen.io/3/tams.jpg">
+          </figure>
+
+          <figure>
+            <figcaption><a href="#">MySpace<br>Records</a></figcaption>
+            <img src="https://assets.codepen.io/3/myspace-records-2.jpg">
+          </figure>
+
+          <figure>
+            <figcaption><a href="#">Allison</a></figcaption>
+            <img src="https://assets.codepen.io/3/jenni.jpg">
+          </figure>
+
+          <figure>
+            <figcaption><a href="#">MySpace<br>Records</a></figcaption>
+            <img src="https://assets.codepen.io/3/myspace-records-3.jpg">
+          </figure>
+        </div>
+
+        <p class="friends-list-link"><a href="#">View All of Mya's Friends</a></p>
+      </section>
+
+      <section class="comment-wall">
+        <header class="main-section-header">
+          <h2 class="main-section-h2">Mya's Friends Comments</h2>
+        </header>
+
+        <p id="comment-counter"><b>Displaying <span class="focus-highlight">1</span> of <span class="focus-highlight">780610</span> comments (<a href="#">View/Edit All Comments</a>)</b></p>
+
+        <table>
+          <tr>
+            <th scope="row">
+              <figure>
+                <figcaption><a href="#">Sam</a></figcaption>
+                <img src="https://assets.codepen.io/3/gram.jpg">
+              </figure>
+            </th>
+            <td>
+              <h3>4/22/2006 6:54 PM</h3>
+              <p>Can't wait to see you on Christmas!</p>
+            </td>
+          </tr>
+
+        </table>
+
+        <p id="add-comment"><a href="#">Add Comment</a></p>
+
+      </section>
+    </main>
+
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Safety Tips</a></li>
+        <li><a href="#">Contact Myspace</a></li>
+        <li><a href="#">Report Inappropriate Content</a></li>
+        <li><a href="#">Promote!</a></li>
+        <li><a href="#">Advertise</a></li>
+        <li id="last"><a href="#">MySpace International</a></li>
+      </ul>
+    </nav>
+
+    <small>©2003-2006 MySpace.com. All Rights Reserved.</small>
+  </footer>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
